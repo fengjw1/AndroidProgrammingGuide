@@ -6,9 +6,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <TextView
+        android:id="@+id/question_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/question_text"
         android:padding="24dp"
         />
     <LinearLayout
@@ -31,4 +31,13 @@
             android:textAllCaps="false"/>
 
     </LinearLayout>
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:drawableLeft="@drawable/arrow_left"
+        android:drawableRight="@drawable/arrow_right"
+        android:drawablePadding="4dp"
+        android:text="@string/next_button"/>
 </LinearLayout>
