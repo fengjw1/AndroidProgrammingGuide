@@ -7,18 +7,22 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:background="#FF88"
+        android:orientation="vertical"
+        android:layout_margin="16dp">
 
         <TextView
             android:id="@+id/item_nodebook_textview_id"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:text="ID"/>
 
         <TextView
             android:id="@+id/item_nodebook_textview_date"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:text="DATE"
             android:textAllCaps="false"/>
 
