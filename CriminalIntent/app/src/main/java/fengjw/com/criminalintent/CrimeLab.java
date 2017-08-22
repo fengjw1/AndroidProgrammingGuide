@@ -14,7 +14,7 @@ public class CrimeLab {
     private static CrimeLab sCrimeLab;
     private List<Crime> mCrimes;
 
-    public static CrimeLab get(Context context){
+    public static CrimeLab get(Context context){ //这是为了防止直接获取构造函数，安全性的使用
         if (sCrimeLab == null){
             sCrimeLab = new CrimeLab(context);
         }
